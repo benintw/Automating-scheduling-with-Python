@@ -23,7 +23,7 @@ def main():
     st.write("-"*100)
     password = st.sidebar.text_input("Enter Password", type='password')
 
-    st.write(st.secrets["use_pw"])
+    st.write(st.secrets["user_pw"])
     st.write(st.secrets["dev_pw"])
 
     if password == 'worldpeace':
